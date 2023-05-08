@@ -1,5 +1,11 @@
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.7;
+
+import ".IStakeManager.sol"
+
 /// @notice Interface for announcing when something is sent to a stealth address.
-contract IERC5564Messenger is StakeManager{
+contract IERC5564Messenger is IStakeManager{
     /// @dev Emitted when sending something to a stealth address.
     /// @dev See the `announce` method for documentation on the parameters.
     event Announcement (
