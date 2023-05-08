@@ -1,0 +1,17 @@
+{
+  "name": "stealth-address",
+  "version": "1.0.0",
+  "description": "Implementation of EIC5564",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aidan Phillips",
+  "license": "ISC"
+}
