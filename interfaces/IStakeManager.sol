@@ -1,23 +1,9 @@
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.7;
+
 /// @notice Interface for the Stake Manager contract.
 interface IStakeManager{
-  
-      /// @dev Emitted when stake is deposited.
-      /// @param account The address of the staker who deposited the stake.
-      /// @param totalStaked The new total amount of staked tokens for the account.
-      event StakeDeposit (
-            address indexed account,
-            uint256 totalStaked
-      );
-      
-      /// @dev Emitted when stake is withdrawn.
-      /// @param account The address of the staker who withdrew the stake.
-      /// @param withdrawAddress The address to which the withdrawn amount was sent.
-      /// @param amount The amount of tokens withdrawn.
-      event StakeWithdrawal (
-            address indexed account,
-            address withdrawAddress,
-            uint256 amount
-      );
       
       /**
       * @notice Returns the stake of the account.
